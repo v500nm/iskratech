@@ -12,6 +12,9 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { CountdownComponent } from './components/countdown/countdown.component';
 import { AboutComponent } from './pages/about/about.component';
 
+import { SidebarModule } from 'primeng/sidebar';
+import {ButtonModule} from 'primeng/button';
+
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -24,6 +27,11 @@ import { AboutComponent } from './pages/about/about.component';
     CountdownComponent,
     AboutComponent,
   ],
-  imports: [CommonModule, UserRoutingModule],
+  imports: [
+    CommonModule, 
+    UserRoutingModule, 
+    SidebarModule,
+    ButtonModule
+  ],
 })
 export class UserModule {}

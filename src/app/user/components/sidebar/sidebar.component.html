@@ -1,1 +1,5 @@
-<p>sidebar works!</p>
+<p-sidebar [(visible)]="visibleSidebar" position="bottom" [baseZIndex]="10000">
+    <h3>Bottom Sidebar</h3>
+</p-sidebar>
+
+<p-button type="button" class="mr-2" (click)="visibleSidebar = true" icon="pi pi-bars"></p-button>
