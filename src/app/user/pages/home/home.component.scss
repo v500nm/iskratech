@@ -1,6 +1,5 @@
 .card {
   .card-container {
-   
     .block2 {
       .iskraLogo {
         height: 20rem;
@@ -27,6 +26,14 @@
         font-size: 60px;
         line-height: 110%;
         color: #ff00cc;
+      }
+    }
+    .about{
+      background-color: #1d0630;
+      color: white;
+      padding: 2rem;
+      .college{
+        
       }
     }
     app-card{
