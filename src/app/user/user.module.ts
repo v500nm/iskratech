@@ -14,6 +14,7 @@ import { AboutComponent } from './pages/about/about.component';
 
 import { SidebarModule } from 'primeng/sidebar';
 import {ButtonModule} from 'primeng/button';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import {ButtonModule} from 'primeng/button';
     TeamComponent,
     CountdownComponent,
     AboutComponent,
+    CardComponent,
   ],
   imports: [
     CommonModule, 

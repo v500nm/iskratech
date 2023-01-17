@@ -1,6 +1,21 @@
 header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+align-items: center;
+margin-top: -24px;
     padding: 1rem;
+    .collegeLogo {
+        width: 100%;
+        height: 5rem;
+        margin: auto;
+      }
+      .select{
+        .part{
+            border: none;
+            color: white;
+            background-color: transparent;
+            font-size: 22px;
+            text-decoration: none;
+        }
+      }
 }

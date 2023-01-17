@@ -1,0 +1,37 @@
+.card {
+  .card-container {
+   
+    .block2 {
+      .iskraLogo {
+        height: 20rem;
+        margin: auto;
+      }
+      p {
+        font-size: 40px;
+        line-height: 1px;
+        color: white;
+      }
+    }
+    .block3 {
+      .reg {
+        margin-top: -2.5rem;
+        font-size: 80px;
+        color: #488eff;
+      }
+      .reg1{
+        margin-top: -2.5rem;
+        font-size: 70px;
+        color: #af55fd;
+      }
+      .now {
+        font-size: 60px;
+        line-height: 110%;
+        color: #ff00cc;
+      }
+    }
+    app-card{
+      width: 100%;
+    }
+   
+  }
+}
