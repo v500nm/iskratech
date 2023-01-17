@@ -34,9 +34,12 @@ footer {
   color: #ffffff;
   text-align: center;
   display: flex;
-  a {
-    text-decoration: none;
-    color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  img{
+    height: 4rem;
+    width: 100%;
   }
  
 }
