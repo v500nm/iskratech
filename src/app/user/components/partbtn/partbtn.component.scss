@@ -1,0 +1,58 @@
+$color: #fff;
+$primary: #69b2fc;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all .2s ease;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba($primary,.5);
+    width: 56px;
+    height: 56px;
+    transition: all .3s ease;
+  }
+  span {
+    position: relative;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+    color: $color;
+  }
+  svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: $color;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all .3s ease;
+  }
+  &:hover {
+    &:before {
+      width: 100%;
+      background: rgba($primary,1);
+    }
+    svg {
+      transform: translateX(0);
+    }
+  }
+  &:active {
+    transform: scale(.96);
+  }
+}

@@ -1,14 +1,19 @@
 .card {
   .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
     .block2 {
       .iskraLogo {
         height: 20rem;
         margin: auto;
+        width: 100%;
       }
       p {
         font-size: 40px;
         line-height: 1px;
         color: white;
+        text-align: center;
       }
     }
     .block3 {
@@ -17,7 +22,7 @@
         font-size: 80px;
         color: #488eff;
       }
-      .reg1{
+      .reg1 {
         margin-top: -2.5rem;
         font-size: 70px;
         color: #af55fd;
@@ -28,16 +33,39 @@
         color: #ff00cc;
       }
     }
-    .about{
-      background-color: #1d0630;
+    .block5 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p {
+        font-size: 52px;
+      }
+      color: white;
+      .cardcarousel {
+        height: 26rem;
+      }
+    }
+    .about {
       color: white;
       padding: 2rem;
       text-align: center;
-     
+      margin: auto;
+      
     }
-    app-card{
+    app-card {
       width: 100%;
     }
-   
   }
+}
+
+.eventGlow {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90px;
+  letter-spacing: 0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 8px 8px #ff1f8f, 20px 20px #000000;
 }

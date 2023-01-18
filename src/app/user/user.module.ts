@@ -11,10 +11,14 @@ import { CountdownComponent } from './components/countdown/countdown.component';
 
 import { SidebarModule } from 'primeng/sidebar';
 import {ButtonModule} from 'primeng/button';
-import { CardComponent } from './components/card/card.component';
 import { AboutComponent } from './pages/about/about.component';
 import { EventsComponent } from './pages/events/events.component';
 import { EventnameComponent } from './components/eventname/eventname.component';
+import { DatesComponent } from './components/dates/dates.component';
+import { PartbtnComponent } from './components/partbtn/partbtn.component';
+import {TabViewModule} from 'primeng/tabview';
+import { CardComponent } from './components/card/card.component';
+import { AboutcompComponent } from './components/aboutcomp/aboutcomp.component';
 
 @NgModule({
   declarations: [
@@ -24,16 +28,20 @@ import { EventnameComponent } from './components/eventname/eventname.component';
     HomeComponent,
     TeamComponent,
     CountdownComponent,
-    CardComponent,
     AboutComponent,
     EventsComponent,
     EventnameComponent,
+    DatesComponent,
+    PartbtnComponent,
+    CardComponent,
+    AboutcompComponent,
   ],
   imports: [
     CommonModule, 
     UserRoutingModule, 
     SidebarModule,
-    ButtonModule
+    ButtonModule,
+    TabViewModule
   ],
 })
 export class UserModule {}

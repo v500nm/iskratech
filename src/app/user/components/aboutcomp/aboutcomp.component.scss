@@ -1,0 +1,82 @@
+
+
+
+$green-light: #00ff72;
+$blue-lightest: #00fcff;
+$blue-dark: #013a52;
+
+.container-about {
+	max-width: 720px;
+	margin: 90px auto;
+}
+
+h2 {
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 110px;
+	letter-spacing: -0.05em;
+	text-align: center;
+	line-height: 1;
+	color: $blue-dark;
+	font-family: 'Roboto Condensed', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	transform-origin: center bottom;
+	transition: all 0.4s;
+	
+	&:first-of-type {
+		transform-origin: center top;
+	}
+	
+	.container-about:hover & {
+		transform: scaleY(0);
+	}
+}
+
+.text {
+	top: 50%;
+	right: 0;
+	left: 0;
+	
+	font-family: 'Open Sans';
+	
+	transform: translateY(-50%);
+	transition: all 0.3s;
+	
+	&:before,
+	&:after {
+		display: block;
+		margin: 50px 0;
+		height: 10px;
+		background: linear-gradient(to right, $blue-lightest, $green-light);
+		opacity: 0.75;
+		content: '';
+		
+		transition: all 0.3s;
+	}
+	
+	&:hover {
+		background: white;
+		
+		&:before,
+		&:after { margin: 0; }
+	}
+}
+
+.inner {
+	padding: 0 60px;
+	max-height: 0;
+	overflow: hidden;
+	background: white;
+	line-height: 1.5;
+	font-size: 18px;
+	font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	
+	transform: scale(0);
+	
+	transition: all 0.3s;
+	
+	.container-about:hover & {
+		padding: 60px;
+		max-height: 300px;
+		transform: scale(1);
+	}
+}
