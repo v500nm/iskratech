@@ -14,6 +14,7 @@ import {ButtonModule} from 'primeng/button';
 import { CardComponent } from './components/card/card.component';
 import { AboutComponent } from './pages/about/about.component';
 import { EventsComponent } from './pages/events/events.component';
+import { EventnameComponent } from './components/eventname/eventname.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { EventsComponent } from './pages/events/events.component';
     CardComponent,
     AboutComponent,
     EventsComponent,
+    EventnameComponent,
   ],
   imports: [
     CommonModule, 
