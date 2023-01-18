@@ -1,172 +1,105 @@
-.events{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    h2{
-        color: yellow;
-        font-weight: 600;
-        margin: 1rem;
-        text-align: center;
-
-    }
-    span{
-        
-        color: black;
-        font-weight: 500;
-        margin: 1rem;
-        background: rgb(234, 234, 80);
-        padding:5px;
-        border-radius: 5px;
-       
-    }
-
-    p{
-        color: white;
-        font-weight: 500;
-        margin: 1rem;
-    }
-
-.day1{
-    width: 50%;
-    .one{
-        padding: 10px;
-        border-radius: 5px;
-        
-
-        .orule{
-            padding: 20px;
-            border-radius: 5px;
-
-            
-        }
-
-    }
-    .two{
-        padding: 10px;
-        border-radius: 5px;
-
-        .trule{
-            padding: 20px;
-            border-radius: 5px;
-            
-        }
-    }
-    .three{
-        padding: 10px;
-        border-radius: 5px;
-        .trule{
-            padding: 20px;
-            border-radius: 5px;
-            
-        }
-    }
-    .four{
-        padding: 10px;
-        border-radius: 5px;
-
-        .frule{
-            padding: 20px;
-            border-radius: 5px;
-            
-        }
-    }
-}
-.day2{
-    width: 50%;
-    .one{
-        padding: 10px;
-        border-radius: 5px;
-        
-
-        .orule{
-            padding: 20px;
-            border-radius: 5px;
-        }
-
-    }
-    .two{
-        padding: 10px;
-        border-radius: 5px;
-
-        .trule{
-            padding: 20px;
-            border-radius: 5px;
-            
-        }
-    }
-    .three{
-        padding: 10px;
-        border-radius: 5px;
-        margin-top: 2.5rem;
-        .trule{
-            padding: 20px;
-            border-radius: 5px;
-            
-        }
-    }
-    .four{
-        padding: 10px;
-        border-radius: 5px;
-        margin-top: 5rem;
-
-        .frule{
-            padding: 20px;
-            border-radius: 5px;
-            
-        }
-    }
-
-}
-}
-
-
-
 
 
 ///////////////////////
-body{
-    overflow-x: hidden;
-}
-
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    grid-gap: 20px;
-    align-items: stretch;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  padding: 16px 18px;
+  align-items: stretch;
+}
 
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  height: 29rem;
 
- 
+   
   
-  .grid > article {
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid > article img {
+  max-width: 100%;
+}
+
+.grid .text {
+  padding: 20px;
+  height: 16rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  
+  h3 {
+    color: white;
+    text-align: center;
+    color: yellow;
+    font-weight: 600;
+    margin: 1rem;
+    text-align: center;
   }
-  
-  .grid > article img {
-    max-width: 100%;
-  }
-  
-  .grid .text {
-    padding: 20px;
-    h3{
-        color: white;
-        text-align: center;
-    }
-    .info{
-        width: 100%;
-        margin: auto 12px;
+  span{
+
+    color: black;
+    height: 39px;
+    font-weight: 500;
+    width: 77px;
+    margin: 1rem;
+    background: rgb(234, 234, 80);
+    padding: 3px;
+    border-radius: 5px;
+}
+.btn{
+    color: black;
+    height: 39px;
+    font-weight: 500;
+    width: 90px;
+    margin: 1rem;
+    background: rgb(56, 64, 174);
+    padding: 5px;
+    margin: 5px -13px;
+    border-radius: 5px;
+
+}
+  .info {
+    width: 100%;
+    margin: auto 12px;
     // margin: auto 12px;
+
     
-    h4{
-        color: white;
-    }
-    ol li{
-        color: white;
-        pad: 12px 12px;
+    ol li {
+      color: white;
+      pad: 12px 12px;
+      
     }
   }
 }
-  
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+
+
+
+
+
+
