@@ -1,4 +1,17 @@
 <p-sidebar [(visible)]="visibleSidebar" position="bottom" [baseZIndex]="10000">
-    <h3>Bottom Sidebar</h3>
+    <div class="menu">
+        <div class="option">
+            <a [ngClass]="{active :activeTab == 'home'}" (click)="home()">Home</a>
+        </div>
+        <div class="option">
+            <a [ngClass]="{active :activeTab == 'event'}" (click)="event()">Event</a>
+        </div>
+        <div class="option">
+            <a [ngClass]="{active :activeTab == 'about'}" (click)="about()">About Us</a>
+        </div>
+        <div class="option">
+            <a [ngClass]="{active :activeTab == 'team'}" (click)="team()">Core Team</a>
+        </div>
+    </div>
 </p-sidebar>
 <button type="button" (click)="visibleSidebar = true"><img src="../../../../assets/images/navIcon.svg" alt=""></button>
