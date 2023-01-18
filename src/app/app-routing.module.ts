@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterLink, RouterModule, Routes } from '@angular/router';
+import { EventsComponent } from './user/pages/events/events.component';
 
 const routes: Routes = [
   {path:'', loadChildren:()=>import('./user/user.module').then(m=>m.UserModule)},
+  { path : 'event', component: EventsComponent}
 ];
 
 @NgModule({
