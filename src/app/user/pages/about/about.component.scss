@@ -19,8 +19,15 @@ main {
     }
   }
   .event {
-    p {
-      font-size: 22px;
+    blockquote{
+      border-radius: 25px;
+      background-color: #8454d6;
+    }
+    p{
+      font-size: 24px;
+    }
+    cite{
+      font-size: 18px;
     }
   }
   .college {
@@ -53,3 +60,92 @@ main {
   }
 }
 
+
+$bg:darken(#8CA8D8, 10%);
+
+/// REQUIRED
+/// ==========================================================
+
+$gutter: 20px;
+$caret-unit: 25px;
+$bubble-bg: #8CA8D8;
+$bubble-color: white;
+$cite-color: $bubble-color;
+
+@function opposite-direction($directions) {
+  $opposite-directions: ();
+  $direction-map: (
+    'top': 'bottom',
+    'right': 'left',
+    'bottom': 'top',
+    'left': 'right',
+    'center': 'center',
+    'ltr': 'rtl',
+    'rtl': 'ltr'
+  );
+
+  @each $direction in $directions {
+    $direction: to-lower-case($direction);
+
+    @if map-has-key($direction-map, $direction) {
+      $opposite-directions: append($opposite-directions, unquote(map-get($direction-map, $direction)));
+    } @else {
+      @warn "No opposite direction can be found for `#{$direction}`. Direction omitted.";
+    }
+  }
+
+  @return $opposite-directions;
+}
+
+@function strip-unit($num) {
+    @return $num / ($num * 0 + 1);
+}
+
+
+/// Triangle Mixin
+/// ==========================================================
+
+@mixin caret($point, $border-width, $color) {
+  $opposite: opposite-direction($point);
+  border: $border-width solid transparent;
+  border-#{$opposite}: $border-width solid $color;
+  border-#{$point}: 0;
+  height: 0;
+  width: 0;
+}
+
+.speech-bubble {
+  filter: drop-shadow(-1px -1px 2px rgba(black, .10)) drop-shadow(1px 2px 2px rgba(black, .15));
+  margin: 1rem;
+  margin-bottom: ($gutter * 2);
+  padding: 1.5rem 2rem;
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background: $bubble-bg;
+  color: $bubble-color;
+
+  &::before {
+    @include caret(bottom, ($caret-unit / 2), $bubble-bg);
+    border-top-width: $caret-unit;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 3rem;
+    bottom: -$caret-unit;
+    transform-origin: center;
+    transform: rotate(90deg) skew(-(strip-unit($caret-unit))+deg) translateY($caret-unit / 1.5);
+  }
+}
+
+.speech-bubble cite {
+  position: absolute;
+  bottom: -2rem;
+  left: 4.5rem;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: $cite-color;
+}
