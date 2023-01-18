@@ -7,7 +7,9 @@
 }
 body{
     background:url('./assets/images/bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
