@@ -17,3 +17,17 @@ button{
 .stream{
     cursor: pointer;
 }
+p-sidebar{
+    font-size: 1.6vw;
+}
+
+@media screen and (max-width: 500px) {
+    .menu{
+        flex-direction: column;
+    }
+    p-sidebar{
+        font-size: 1.2rem;
+    }
+  }
+  
+  
