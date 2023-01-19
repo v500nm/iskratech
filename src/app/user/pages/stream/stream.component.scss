@@ -23,18 +23,11 @@ form {
   justify-content: center;
   flex-direction: column;
 }
-.p1{
-    font-size: 42px;
-    text-align: center;
-}
 
-.p2{
+
+.p{
     font-size: 36px;
   text-align: center;
-}
-.p3{
-    text-align: center;
-    font-size: 32px;
 }
 
 #hands {
@@ -46,8 +39,7 @@ input:checked ~ div .hand {
 }
 
 .hand {
-  margin: 20px;
-  width: 200px;
+  width: 240px;
   height: 200px;
   position: relative;
   transform: rotate(10deg);
@@ -232,7 +224,7 @@ label:nth-of-type(2) { animation-delay: -0.15s; }
 label:nth-of-type(3) { animation-delay: -0.30s; }
 
 section{
-    height: 35rem;
+    height: 90vh;
     background-color: antiquewhite;
     margin: 4rem;
     border-radius:18px;
@@ -245,4 +237,12 @@ section{
     font-size: 15px;
     background-color: black;
     color: white;
+}
+@media screen and (max-width: 500px) {
+  .p{
+    font-size: 18px;
+  }
+  section{
+margin: 1rem;
+  }
 }

@@ -20,14 +20,14 @@ main {
   }
   .event {
     blockquote{
-      width: 80%;
+      width: 100%;
       margin: auto;
       margin-bottom: 4rem;
       border-radius: 25px;
       background-color: #8454d6;
     }
     p{
-      font-size: 24px;
+      font-size: 22px;
     }
     cite{
       font-size: 18px;
@@ -46,21 +46,44 @@ main {
     0 0 8px #fff;
     .ctitle {
       p {
-        font-size: 36px;
-        padding-left: 5rem;
+        font-size: 32px;
+        padding-left: 3rem;
         text-align: justify;
       }
     }
     .cDesc {
-      transform: translateX(70px);
+      transform: translateX(40px);
       border-radius: 5px;
       background-color: #001f33;
       border-radius: 28px;
       margin: 0.8rem;
-      padding: 2.4rem;
+      padding: 2rem;
       font-size: 22px;
+      line-height: 140%;
       box-shadow:0 0 8px #fff;
     }
+  }
+}
+.read{
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .cDesc{
+    font-size: 2vw;
+  }
+  .limitTextHeight {
+    height: 165px;
+    overflow: hidden;
+  }
+  .read{
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+    display: block;
   }
 }
 
