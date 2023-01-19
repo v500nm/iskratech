@@ -4,13 +4,12 @@ footer {
   color: #a7a7a7;
   font-size: 18px;
   .row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(296px, auto));
+    display: flex;
+   
     margin: auto;
     padding: 1rem;
   }
 }
-
 .column {
   width: 100%;
   display: flex;
@@ -61,7 +60,7 @@ button {
 }
 div.social {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-size: 2.4em;
   flex-direction: row;
   margin-top: 0.5em;
@@ -104,17 +103,13 @@ div.social {
 }
 @media screen and (max-width: 500px) {
   .row.primary {
-    width: 143vh;
-    grid-template-columns: 1fr;
-  }
-  .column .about{
-    width: 59rem;
-  }
-  .connect{
     flex-direction: column;
     align-items: center;
   }
-
+ 
+  .connect{
+    flex-direction: column;
+  }
 
 }
 
