@@ -3,15 +3,19 @@ $blue-lightest: #00fcff;
 $blue-dark: #6dc2e7;
 
 .container-about {
-  max-width: 720px;
-  margin: 90px auto;
+  max-width: 20vw;
+  margin: auto;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 h2 {
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 110px;
+  font-size: 12vw;
   letter-spacing: -0.05em;
   text-align: center;
   line-height: 1;
@@ -20,7 +24,6 @@ h2 {
     sans-serif;
   transform-origin: center bottom;
   transition: all 0.4s;
- 
 
   &:first-of-type {
     transform-origin: center top;
@@ -44,7 +47,6 @@ h2 {
   &:before,
   &:after {
     display: block;
-    margin: 50px 0;
     opacity: 0.75;
     content: "";
 
@@ -53,33 +55,39 @@ h2 {
 
   &:hover {
     background: white;
-
-    &:before,
-    &:after {
-      margin: 0;
-    }
   }
 }
 
 .inner {
-	border: 5px solid black;
-  textarea {
-    color: black;
-    line-height: 1.5;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
+  position: absolute;
+
+  border: 5px solid black;
+  color: black;
+
+  a {
+    text-decoration: none;
+    font-size: 2vw;
   }
-  padding: 0 60px;
-  max-height: 0;
+  cursor: pointer;
+  height: 40vh;
   overflow: hidden;
   background: white;
   transform: scale(0);
-  transition: all 0.3s;
+  transition: all 0.8s;
 
   .container-about:hover & {
-    padding: 60px;
-    max-height: 300px;
+    padding: 1rem;
+    width: 60vw;
+    z-index: 10;
+    text-decoration: none;
     transform: scale(1);
+    transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 480px) {
+  .container-about{
+    a{
+      font-size: 4vw;
+    }
   }
 }

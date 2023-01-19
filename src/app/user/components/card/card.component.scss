@@ -3,17 +3,16 @@
   width: 20rem;
   perspective: 800px;
 }
-
 .carousel {
   position: absolute;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
-  animation: rotate360 60s infinite forwards linear;
+  transform-style:preserve-3d;
+  animation: rotate360 30s infinite forwards linear;
 }
 .carousel__face {
   position: absolute;
-  width: 20rem;
+  width:18rem;
   height: 10rem;
   top: 20px;
   left: 10px;
@@ -28,45 +27,42 @@
     inset -4px 0 300px rgb(24, 74, 114),
     0 0 15px rgb(83, 83, 83);
 }
-
 span {
   margin: auto;
   font-size: 2rem;
 }
-
 .carousel__face:nth-child(1) {
   background:#2b0322;
-  transform: rotateY(0deg) translateZ(430px);
+  transform: rotateY(0deg) translateZ(62vw);
 }
 .carousel__face:nth-child(2) {
     background:#2b0322;
-  transform: rotateY(45deg) translateZ(430px);
+  transform: rotateY(45deg) translateZ(62vw);
 }
 .carousel__face:nth-child(3) {
   background:#2b0322; 
-  transform: rotateY(90deg) translateZ(430px);
+  transform: rotateY(90deg) translateZ(62vw);
 }
 .carousel__face:nth-child(4) {
   background:#2b0322;
-  transform: rotateY(135deg) translateZ(430px);
+  transform: rotateY(135deg) translateZ(62vw);
 }
 .carousel__face:nth-child(5) {
   background:#2b0322; 
-  transform: rotateY(180deg) translateZ(430px);
+  transform: rotateY(180deg) translateZ(62vw);
 }
 .carousel__face:nth-child(6) {
   background:#2b0322;
-  transform: rotateY(225deg) translateZ(430px);
+  transform: rotateY(225deg) translateZ(62vw);
 }
 .carousel__face:nth-child(7) {
   background:#2b0322;
-  transform: rotateY(270deg) translateZ(430px);
+  transform: rotateY(270deg) translateZ(62vw);
 }
 .carousel__face:nth-child(8) {
   background:#2b0322; 
-  transform: rotateY(315deg) translateZ(430px);
+  transform: rotateY(315deg) translateZ(62vw);
 }
-
 
 @keyframes rotate360 {
   from {
@@ -76,3 +72,16 @@ span {
     transform: rotateY(-360deg);
   }
 }
+@media screen and (max-width: 480px) {
+  .container{
+   perspective:1000px;
+
+  }
+  .carousel__face{
+    width: 40vw;
+    height: 20vh;
+  }
+  span{
+    font-size: 6vw;
+  }
+ }

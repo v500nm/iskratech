@@ -9,6 +9,7 @@
   header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding:0.4rem;
     .title{
         h1 {
@@ -18,15 +19,22 @@
           }
     }
   }
-  .countdown {
+  #countdown {
         background-color: black;
+        padding: 1rem;
+       
         text-align: center;
         color: green;
         text-transform: uppercase;
         font-family: "Orbitron", sans-serif;
         p{
-          font-size: 6vw;
+          font-size: 8vw;
           @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
         }
+  }
+}
+@media screen and (max-width: 480px) {
+  .container-countdown{
+    margin-bottom: -4rem;
   }
 }
