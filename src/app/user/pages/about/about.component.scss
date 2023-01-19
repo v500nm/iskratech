@@ -20,6 +20,9 @@ main {
   }
   .event {
     blockquote{
+      width: 80%;
+      margin: auto;
+      margin-bottom: 4rem;
       border-radius: 25px;
       background-color: #8454d6;
     }
@@ -56,6 +59,8 @@ main {
       margin: 0.8rem;
       padding: 2.4rem;
       font-size: 22px;
+      box-shadow:
+    0 0 8px #fff;
     }
   }
 }
