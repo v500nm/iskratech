@@ -27,4 +27,8 @@ export class SidebarComponent {
     this.activeTab = 'team';
     this.router.navigate(['team']);
   }
+  stream(){
+    this.activeTab='stream';
+    this.router.navigate(['stream']); 
+  }
 }

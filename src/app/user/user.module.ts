@@ -19,6 +19,7 @@ import { PartbtnComponent } from './components/partbtn/partbtn.component';
 import {TabViewModule} from 'primeng/tabview';
 import { CardComponent } from './components/card/card.component';
 import { AboutcompComponent } from './components/aboutcomp/aboutcomp.component';
+import { StreamComponent } from './pages/stream/stream.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { AboutcompComponent } from './components/aboutcomp/aboutcomp.component';
     PartbtnComponent,
     CardComponent,
     AboutcompComponent,
+    StreamComponent,
   ],
   imports: [
     CommonModule, 

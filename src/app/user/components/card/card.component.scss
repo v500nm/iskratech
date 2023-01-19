@@ -14,8 +14,8 @@
 }
 .carousel__face {
   position: absolute;
-  width: 300px;
-  height: 210px;
+  width: 18rem;
+  height: 12rem;
   top: 20px;
   left: 10px;
   right: 10px;
@@ -27,7 +27,7 @@
     inset -4px 0 80px rgb(24, 74, 114),
     inset 4px 0 300px rgb(146, 5, 146),
     inset -4px 0 300px rgb(24, 74, 114),
-    0 0 8px rgb(95, 95, 95);
+    0 0 15px rgb(83, 83, 83);
 }
 
 span {
