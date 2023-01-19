@@ -33,35 +33,35 @@ span {
 }
 .carousel__face:nth-child(1) {
   background:#2b0322;
-  transform: rotateY(0deg) translateZ(62vw);
+  transform: rotateY(0deg) translateZ(460px);
 }
 .carousel__face:nth-child(2) {
     background:#2b0322;
-  transform: rotateY(45deg) translateZ(62vw);
+  transform: rotateY(45deg) translateZ(460px);
 }
 .carousel__face:nth-child(3) {
   background:#2b0322; 
-  transform: rotateY(90deg) translateZ(62vw);
+  transform: rotateY(90deg) translateZ(460px);
 }
 .carousel__face:nth-child(4) {
   background:#2b0322;
-  transform: rotateY(135deg) translateZ(62vw);
+  transform: rotateY(135deg) translateZ(460px);
 }
 .carousel__face:nth-child(5) {
   background:#2b0322; 
-  transform: rotateY(180deg) translateZ(62vw);
+  transform: rotateY(180deg) translateZ(460px);
 }
 .carousel__face:nth-child(6) {
   background:#2b0322;
-  transform: rotateY(225deg) translateZ(62vw);
+  transform: rotateY(225deg) translateZ(460px);
 }
 .carousel__face:nth-child(7) {
   background:#2b0322;
-  transform: rotateY(270deg) translateZ(62vw);
+  transform: rotateY(270deg) translateZ(460px);
 }
 .carousel__face:nth-child(8) {
   background:#2b0322; 
-  transform: rotateY(315deg) translateZ(62vw);
+  transform: rotateY(315deg) translateZ(460px);
 }
 
 @keyframes rotate360 {
@@ -75,7 +75,6 @@ span {
 @media screen and (max-width: 480px) {
   .container{
    perspective:1000px;
-
   }
   .carousel__face{
     width: 40vw;
@@ -83,5 +82,37 @@ span {
   }
   span{
     font-size: 6vw;
+  }
+  .carousel__face:nth-child(1) {
+    background:#2b0322;
+    transform: rotateY(0deg) translateZ(62vw);
+  }
+  .carousel__face:nth-child(2) {
+      background:#2b0322;
+    transform: rotateY(45deg) translateZ(62vw);
+  }
+  .carousel__face:nth-child(3) {
+    background:#2b0322; 
+    transform: rotateY(90deg) translateZ(62vw);
+  }
+  .carousel__face:nth-child(4) {
+    background:#2b0322;
+    transform: rotateY(135deg) translateZ(62vw);
+  }
+  .carousel__face:nth-child(5) {
+    background:#2b0322; 
+    transform: rotateY(180deg) translateZ(62vw);
+  }
+  .carousel__face:nth-child(6) {
+    background:#2b0322;
+    transform: rotateY(225deg) translateZ(62vw);
+  }
+  .carousel__face:nth-child(7) {
+    background:#2b0322;
+    transform: rotateY(270deg) translateZ(62vw);
+  }
+  .carousel__face:nth-child(8) {
+    background:#2b0322; 
+    transform: rotateY(315deg) translateZ(62vw);
   }
  }

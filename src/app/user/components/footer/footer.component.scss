@@ -3,30 +3,15 @@ footer {
   background-color: #121315;
   color: #a7a7a7;
   font-size: 18px;
+  .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(296px, auto));
+    margin: auto;
+    width: 70vw;
+    padding: 1rem;
+  }
 }
-footer * {
-  font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
-  border: none;
-  outline: none;
-}
-.row {
-  padding: 1rem;
-}
-.row.primary {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(296px, auto));
-  grid-gap: -5px;
-  margin: -47px auto;
-  grid-gap: 18px;
-  max-width: 1723px;
-  padding: 81px;
-}
-.connect{
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
+
 .column {
   width: 100%;
   display: flex;
@@ -87,7 +72,8 @@ div.social {
 }
 
 .copyright {
-  padding: 0.3em 1em;
+  padding: 2rem;
+  width: 100%;
   background-color: #25262e;
 }
 .footLogo{
@@ -112,7 +98,12 @@ div.social {
   font-size: 0.9em;
   text-align: right;
 }
-@media screen and (max-width: 850px) {
+.connect{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+@media screen and (max-width: 500px) {
   .row.primary {
     width: 143vh;
     grid-template-columns: 1fr;
@@ -120,6 +111,11 @@ div.social {
   .column .about{
     width: 59rem;
   }
+  .connect{
+    flex-direction: column;
+    align-items: center;
+  }
+
 
 }
 
