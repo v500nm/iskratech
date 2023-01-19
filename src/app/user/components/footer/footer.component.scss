@@ -14,8 +14,13 @@ footer * {
   padding: 1rem;
 }
 .row.primary {
-display: flex;
-justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(296px, auto));
+  grid-gap: -5px;
+  margin: -47px auto;
+  grid-gap: 18px;
+  max-width: 1723px;
+  padding: 81px;
 }
 .connect{
   display: flex;
@@ -109,7 +114,12 @@ div.social {
 }
 @media screen and (max-width: 850px) {
   .row.primary {
+    width: 143vh;
     grid-template-columns: 1fr;
+  }
+  .column .about{
+    width: 59rem;
   }
 
 }
+

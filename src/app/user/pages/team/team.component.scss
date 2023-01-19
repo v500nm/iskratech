@@ -58,12 +58,13 @@ h1{
 	margin:0 auto;
     overflow: hidden;
     border-radius: 50%;
-    padding: 15px;
+    // paddings: 15px;
     transition: all 0.5s ease;
     box-shadow: inset 0px 0px 20px rgba(0,0,0,0.20);
 }
 .image-wrapper img {
     border-radius: 50%;
+    height: 139px;
     transition: all 500ms ease;
 }
 .box-desc {
