@@ -75,35 +75,3 @@ a{
   color: white;
 }
 
-
-.container-countdown {
-  font-family: "Orbitron", sans-serif;
-  color: #fff;
-  margin: 0 auto;
-  background-color: rgb(52, 52, 52);
-  padding: 0.4rem;
-  border-radius:2%;
-  header{
-    display: flex;
-    justify-content: space-between;
-    padding:0.4rem;
-    .title{
-        h1 {
-            font-weight: normal;
-            letter-spacing: 0.125rem;
-            text-transform: uppercase;
-          }
-    }
-  }
-  .countdown {
-        background-color: black;
-        text-align: center;
-        color: green;
-        text-transform: uppercase;
-        font-family: "Orbitron", sans-serif;
-        p{
-          font-size: 6vw;
-          @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
-        }
-  }
-}
