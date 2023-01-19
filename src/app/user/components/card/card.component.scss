@@ -1,8 +1,7 @@
 .container {
   position: relative;
-  width: 320px;
-  margin: 100px auto 0 auto;
-  perspective: 1000px;
+  width: 20rem;
+  perspective: 800px;
 }
 
 .carousel {
@@ -14,8 +13,8 @@
 }
 .carousel__face {
   position: absolute;
-  width: 18rem;
-  height: 12rem;
+  width: 20rem;
+  height: 10rem;
   top: 20px;
   left: 10px;
   right: 10px;
