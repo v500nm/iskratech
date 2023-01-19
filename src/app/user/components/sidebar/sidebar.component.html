@@ -9,11 +9,11 @@
         <div class="option">
             <a [ngClass]="{active :activeTab == 'about'}" (click)="about()">About Us</a>
         </div>
-        <div class="option">
-            <a [ngClass]="{active :activeTab == 'team'}" (click)="team()">Core Team</a>
-        </div>
         <div class="stream">
             <a [ngClass]="{active :activeTab=='stream'}" (click)="stream()">Live Streaming</a>
+        </div>
+        <div class="option">
+            <a [ngClass]="{active :activeTab == 'team'}" (click)="team()">Core Team</a>
         </div>
     </div>
 </p-sidebar>
