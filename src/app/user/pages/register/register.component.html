@@ -33,8 +33,8 @@
                 </div>
                 <div class="field col-12 md:col-6">
                     <span class="p-float-label">
-                        <input type="text" id="inputtext1" pInputText required>
-                        <label for="inputtext">Stream with Class eg. fy-bscit, fyjc(commerce)</label>
+                        <input type="text" id="inputtext" class="inputtext1" pInputText required>
+                        <label for="inputtext">Stream with Class <br> eg. fy-bscit</label>
                     </span>
                 </div>
                 <div class="field col-12 md:col-12">
@@ -55,25 +55,25 @@
                     <div>
                         <h2>Day 1 Events</h2>
                         <label class="rad-label">
-                            <input type="radio" class="rad-input" name="rad">
+                            <input type="checkbox" class="rad-input" name="day1">
                             <div class="rad-design"></div>
                             <div class="rad-text">Digi-Ster</div>
                         </label>
 
                         <label class="rad-label">
-                            <input type="radio" class="rad-input" name="rad">
+                            <input type="checkbox" class="rad-input" name="day1">
                             <div class="rad-design"></div>
                             <div class="rad-text">Frontend Wizard</div>
                         </label>
 
                         <label class="rad-label">
-                            <input type="radio" class="rad-input" name="rad">
+                            <input type="checkbox" class="rad-input" name="day1">
                             <div class="rad-design"></div>
                             <div class="rad-text">logo Tävling</div>
                         </label>
 
                         <label class="rad-label">
-                            <input type="radio" class="rad-input" name="rad">
+                            <input type="checkbox" class="rad-input" name="day1">
                             <div class="rad-design"></div>
                             <div class="rad-text">Opticode.js</div>
                         </label>
@@ -83,25 +83,25 @@
                     <div>
                         <h2>Day 2 Events</h2>
                         <label class="rad-label">
-                            <input type="radio" class="rad-input" name="rad">
+                            <input type="checkbox" class="rad-input" name="day2">
                             <div class="rad-design"></div>
                             <div class="rad-text">Code-Tech</div>
                         </label>
 
                         <label class="rad-label">
-                            <input type="radio" class="rad-input" name="rad">
+                            <input type="checkbox" class="rad-input" name="day2">
                             <div class="rad-design"></div>
                             <div class="rad-text">Treasure Hunt</div>
                         </label>
 
                         <label class="rad-label">
-                            <input type="radio" class="rad-input" name="rad">
+                            <input type="checkbox" class="rad-input" name="day2">
                             <div class="rad-design"></div>
                             <div class="rad-text">Blind Typing</div>
                         </label>
 
                         <label class="rad-label">
-                            <input type="radio" class="rad-input" name="rad">
+                            <input type="checkbox" class="rad-input" name="day2">
                             <div class="rad-design"></div>
                             <div class="rad-text">Technizia</div>
                         </label>
@@ -116,32 +116,27 @@
                 <div class="field col-12 md:col-6">
                     <h3>This payment QR Code is for following events(like Digi-Ster, FrontEnd Wizard, Logo Taveling,
                         Opticode.Js, CodeTech, Treasure Hunt, Blind Typing).</h3>
-                        <img class="restImg" src="../../../../assets/images/restEvent.jpg" alt="">
+                    <img class="restImg" src="../../../../assets/images/restEvent.jpg" alt="">
                 </div>
                 <div class="field col-12 md:col-6">
                     <h3>Payment QR For Technizia both Event.</h3><br><br>
                     <img class="techniziaImg" src="../../../../assets/images/Technizia.jpg" alt="">
                 </div>
                 <div class="field col-12 md:col-12">
-                    <h2>Upload Payment Screenshot*</h2>
-                    <input class="gpay" type="file" name="">
+                <h2>Upload Payment Screenshot*</h2>
                 </div>
-                <div class="field col-12 md:col-12">
-                    <h2>Payment file uploaded</h2>
-                    <label class="rad-label">
-                        <input type="radio" class="rad-input" name="rad">
-                        <div class="rad-design"></div>
-                        <div class="rad-text">yes</div>
-                    </label>
-                    <label class="rad-label">
-                        <input type="radio" class="rad-input" name="rad">
-                        <div class="rad-design"></div>
-                        <div class="rad-text">no</div>
-                    </label>
+                <div class="field col-12 md:col-6">
+                    <label for="Aevents">All events: </label><br>
+                    <input class="gpay" type="file" name="Aevents">
                     <hr>
                 </div>
-                <div class="fieldBtn">
-                <button class="submitBtn" type="submit">Submit</button>    
+                <div class="field col-12 md:col-6">
+                    <label for="technizia">Technizia: </label><br>
+                    <input class="gpay" type="file" name="technizia">
+                    <hr>
+                </div>
+                <div class="fieldBtn field col-12 md:col-12">
+                    <button class="submitBtn" type="submit">Submit</button>
                 </div>
             </div>
         </form>
