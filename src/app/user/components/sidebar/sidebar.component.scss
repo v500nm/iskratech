@@ -1,10 +1,13 @@
 button{
     background-color: white;
     padding: 0.4rem;
-    width: 6rem;
+    width: 6vw;
     border-color: white;
     border-radius: 12%;
     cursor: pointer;
+}
+@media screen and (max-width:500px) {
+    button{width: 20vw;}
 }
 .menu{
     display: flex;
