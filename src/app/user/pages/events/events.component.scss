@@ -34,12 +34,12 @@ h2{
 }
 
 .grid .text {
-  padding: 20px;
-  height: 13rem;
-  overflow-y:scroll;
-  overflow-x: hidden;
-  background-color: rgb(54, 0, 81);
-  border-radius: 0 20px 0 20px;
+  // padding: 20px;
+  // height: 13rem;
+  // overflow-y:scroll;
+  // overflow-x: hidden;
+  // background-color: rgb(54, 0, 81);
+  // border-radius: 0 20px 0 20px;
   
   h3 {
     color: white;
@@ -74,6 +74,12 @@ h2{
 
 }
   .info {
+    padding: 20px;
+  height: 13rem;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  background-color: rgb(54, 0, 81);
+  border-radius: 0 20px 0 20px;
     width: 100%;
     margin: auto 12px;
     // margin: auto 12px;
