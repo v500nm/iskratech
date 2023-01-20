@@ -1,33 +1,39 @@
-button{
+button {
     background-color: white;
     padding: 0.4rem;
     width: 6rem;
     border-color: white;
     border-radius: 12%;
     cursor: pointer;
+
+
 }
-.menu{
+
+
+.menu {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.option{
+
+.option {
     cursor: pointer;
 }
-.stream{
+
+.stream {
     cursor: pointer;
 }
-p-sidebar{
+
+p-sidebar {
     font-size: 1.6vw;
 }
 
 @media screen and (max-width: 500px) {
-    .menu{
+    .menu {
         flex-direction: column;
     }
-    p-sidebar{
+
+    p-sidebar {
         font-size: 1.2rem;
     }
-  }
-  
-  
+}
