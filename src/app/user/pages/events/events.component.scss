@@ -34,13 +34,6 @@ h2{
 }
 
 .grid .text {
-  // padding: 20px;
-  // height: 13rem;
-  // overflow-y:scroll;
-  // overflow-x: hidden;
-  // background-color: rgb(54, 0, 81);
-  // border-radius: 0 20px 0 20px;
-  
   h3 {
     color: white;
     text-align: center;
@@ -48,13 +41,15 @@ h2{
     font-weight: 600;
     text-align: center;
     background-color: black;
+    width: 90%;
+    margin: auto;
     border-radius: 5px;
   }
   p{
     color: gold;
     height: 49px;
     font-weight: 600;
-    width: 77px;
+    width: 2rem;
     font-size: 1.4rem;
     text-align: center;
     // background: rgb(234, 234, 80);
@@ -74,7 +69,7 @@ h2{
 
 }
   .info {
-    padding: 20px;
+    padding: 30px;
   height: 13rem;
   overflow-y:scroll;
   overflow-x: hidden;
