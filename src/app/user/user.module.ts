@@ -20,6 +20,8 @@ import {TabViewModule} from 'primeng/tabview';
 import { CardComponent } from './components/card/card.component';
 import { AboutcompComponent } from './components/aboutcomp/aboutcomp.component';
 import { StreamComponent } from './pages/stream/stream.component';
+import { RegisterComponent } from './pages/register/register.component';
+
 
 @NgModule({
   declarations: [
@@ -37,6 +39,7 @@ import { StreamComponent } from './pages/stream/stream.component';
     CardComponent,
     AboutcompComponent,
     StreamComponent,
+    RegisterComponent
   ],
   imports: [
     CommonModule, 

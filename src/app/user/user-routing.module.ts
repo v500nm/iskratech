@@ -5,7 +5,7 @@ import { TeamComponent } from './pages/team/team.component';
 import { EventsComponent } from './pages/events/events.component';
 import { AboutComponent } from './pages/about/about.component';
 import { StreamComponent } from './pages/stream/stream.component';
-import { RegisterComponent } from './components/register/register.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
