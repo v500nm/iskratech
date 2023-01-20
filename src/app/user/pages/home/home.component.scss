@@ -75,4 +75,10 @@ a{
   text-decoration: none;
   color: white;
 }
+@media  screen and (max-width:500px) {
+  .eventGlow{
+    -webkit-text-stroke-width: 4px;
+    text-shadow: 8px 8px #ff1f8f 15px 15px #000000;
+  }
+}
 
