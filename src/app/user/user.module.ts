@@ -34,7 +34,7 @@ import { StreamComponent } from './pages/stream/stream.component';
     TeamComponent,
     CountdownComponent,
     AboutComponent,
-    EventsComponent,
+    EventsComponent,  
     EventnameComponent,
     DatesComponent,
     PartbtnComponent,
