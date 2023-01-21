@@ -22,6 +22,7 @@ import { PartbtnComponent } from './components/partbtn/partbtn.component';
 import { CardComponent } from './components/card/card.component';
 import { AboutcompComponent } from './components/aboutcomp/aboutcomp.component';
 import { StreamComponent } from './pages/stream/stream.component';
+import { BdayComponent } from './pages/bday/bday.component';
 
 
 
@@ -40,7 +41,8 @@ import { StreamComponent } from './pages/stream/stream.component';
     PartbtnComponent,
     CardComponent,
     AboutcompComponent,
-    StreamComponent
+    StreamComponent,
+    BdayComponent
   ],
   imports: [
     CommonModule, 
