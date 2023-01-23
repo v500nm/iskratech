@@ -18,8 +18,18 @@ h2{
   margin:1rem;
   color: white;
   text-align: center;
+  span{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: yellow;
+  }
 }
-
+h3{
+  margin:1rem;
+  color: white;
+  text-align: center;
+  
+}
 .grid > article {
   //border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
