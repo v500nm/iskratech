@@ -1,1 +1,23 @@
-<router-outlet></router-outlet>
+<router-outlet *ngIf="main"></router-outlet>
+<div class="bodyLoad" *ngIf="isLoading">
+    <div class="loader">
+        <span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <div class="base">
+          <span><h1>Iskra.Tech</h1></span>
+          <div class="face"></div>
+        </div>
+      </div>
+      <div class="longfazers">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+</div>
+   
+  

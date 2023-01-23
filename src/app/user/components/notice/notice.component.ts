@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-bday',
-  templateUrl: './bday.component.html',
-  styleUrls: ['./bday.component.scss']
+  selector: 'app-notice',
+  templateUrl: './notice.component.html',
+  styleUrls: ['./notice.component.scss'],
 })
-export class BdayComponent implements OnInit {
+export class NoticeComponent implements OnInit {
   noticeView = false;
   ngOnInit(): void {
     this.noticeView = true;

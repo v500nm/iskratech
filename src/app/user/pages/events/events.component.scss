@@ -1,11 +1,10 @@
 
-
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   grid-gap: 20px;
-  padding: 16px 35px;
-  align-items: stretch;
+  padding: 40px;
+margin: 0 !important;
 }
 img{
  width: 100%;
@@ -64,7 +63,6 @@ h2{
     margin: 1rem;
     background: rgb(56, 64, 174);
     padding: 5px;
-    margin: 5px -13px;
     border-radius: 5px;
 
 }
@@ -76,7 +74,7 @@ h2{
   background-color: rgb(54, 0, 81);
   border-radius: 0 20px 0 20px;
     width: 100%;
-    margin: auto 12px;
+    margin: auto;
     // margin: auto 12px;
 
     

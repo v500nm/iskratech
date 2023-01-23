@@ -23,6 +23,8 @@ import { CardComponent } from './components/card/card.component';
 import { AboutcompComponent } from './components/aboutcomp/aboutcomp.component';
 import { StreamComponent } from './pages/stream/stream.component';
 import { BdayComponent } from './pages/bday/bday.component';
+import { TopicsComponent } from './components/topics/topics.component';
+import { NoticeComponent } from './components/notice/notice.component';
 
 
 
@@ -42,7 +44,9 @@ import { BdayComponent } from './pages/bday/bday.component';
     CardComponent,
     AboutcompComponent,
     StreamComponent,
-    BdayComponent
+    BdayComponent,
+    TopicsComponent,
+    NoticeComponent
   ],
   imports: [
     CommonModule, 
