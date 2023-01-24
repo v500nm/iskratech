@@ -22,9 +22,7 @@ import { PartbtnComponent } from './components/partbtn/partbtn.component';
 import { CardComponent } from './components/card/card.component';
 import { AboutcompComponent } from './components/aboutcomp/aboutcomp.component';
 import { StreamComponent } from './pages/stream/stream.component';
-import { BdayComponent } from './pages/bday/bday.component';
 import { TopicsComponent } from './components/topics/topics.component';
-import { NoticeComponent } from './components/notice/notice.component';
 
 
 
@@ -44,9 +42,7 @@ import { NoticeComponent } from './components/notice/notice.component';
     CardComponent,
     AboutcompComponent,
     StreamComponent,
-    BdayComponent,
-    TopicsComponent,
-    NoticeComponent
+    TopicsComponent
   ],
   imports: [
     CommonModule, 
