@@ -23,6 +23,7 @@ import { CardComponent } from './components/card/card.component';
 import { AboutcompComponent } from './components/aboutcomp/aboutcomp.component';
 import { StreamComponent } from './pages/stream/stream.component';
 import { TopicsComponent } from './components/topics/topics.component';
+import { LeaderboardComponent } from './pages/leaderboard/leaderboard.component';
 
 
 
@@ -42,7 +43,8 @@ import { TopicsComponent } from './components/topics/topics.component';
     CardComponent,
     AboutcompComponent,
     StreamComponent,
-    TopicsComponent
+    TopicsComponent,
+    LeaderboardComponent
   ],
   imports: [
     CommonModule, 

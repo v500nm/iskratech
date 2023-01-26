@@ -31,4 +31,8 @@ export class SidebarComponent {
     this.activeTab='stream';
     this.router.navigate(['stream']); 
   }
+  leaderBoard(){
+    this.activeTab='leaderboard';
+    this.router.navigate(['leaderboard']);
+  }
 }
