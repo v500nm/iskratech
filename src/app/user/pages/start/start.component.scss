@@ -25,12 +25,7 @@ section{
 }
 
 .abc {
-
-    height: 108px;
-    width: 721px;
-    margin-top: 40px;
-    margin-left: -106px;
-    margin-bottom: 50px;
+    padding: 2rem;
     border-radius: 9px;
     background-color: rgb(0, 0, 0);
     opacity: 0.9;
@@ -94,7 +89,7 @@ img {
     font-size: 20px;
     font-weight: bolder;
     border-radius: 35px;
-    background-color: aqua;
+    background-color: rgb(144, 255, 255);
     border: none;
     color: darkgreen;
     /* transition: font-size 2s;
@@ -112,16 +107,12 @@ img {
 }
 
 .hint {
-
-
     text-align: center;
-    width: 985px;
-    margin-left: -225px;
-    background-color: skyblue;
+    background-color: rgb(203, 240, 255);
     border-radius: 5px;
-    height: 86px;
-    padding-top: 14px;
-    text-shadow: 0px 3px 5px rgb(255, 0, 0);
+    font-size: 22px;
+    padding: 2rem;
+    color: black;
     opacity: 0.8;
 }
 
