@@ -24,6 +24,8 @@ import { AboutcompComponent } from './components/aboutcomp/aboutcomp.component';
 import { StreamComponent } from './pages/stream/stream.component';
 import { TopicsComponent } from './components/topics/topics.component';
 import { LeaderboardComponent } from './pages/leaderboard/leaderboard.component';
+import {PanelModule} from 'primeng/panel';
+import {TableModule} from 'primeng/table';
 
 
 
@@ -52,7 +54,9 @@ import { LeaderboardComponent } from './pages/leaderboard/leaderboard.component'
     SidebarModule,
     ButtonModule,
     TabViewModule,
-    FormsModule
+    FormsModule,
+    PanelModule,
+    TableModule
   ],
 })
 export class UserModule {}
