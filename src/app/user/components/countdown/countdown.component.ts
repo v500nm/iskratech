@@ -33,7 +33,7 @@ export class CountdownComponent implements OnInit, OnDestroy{
       // If the count down is over, write some text
       if (distance < 0) {
         clearInterval(x);
-        demo.innerHTML = 'EXPIRED';
+        demo.innerHTML = 'Iskra.Tech is Live Now';
       }
     }, 1000);
   }
