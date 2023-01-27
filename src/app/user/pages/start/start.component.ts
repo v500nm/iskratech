@@ -12,9 +12,8 @@ export class StartComponent {
   myFunction(value:string) {
     // const ab = prompt("Enter the text")
     console.log(value)
-    const img1 = document.getElementById('img1') as HTMLDivElement | any,
-      answer = document.getElementById('answer') as HTMLDivElement | any,
-      img2 = document.getElementById('img2') as HTMLDivElement | any;
+    const answer = document.getElementById('answer') as HTMLDivElement | any,
+      clue=document.getElementById('clue')as HTMLDivElement|any;
 
     if (value.toLowerCase()== 'pendrive') {
       this.win = true;
