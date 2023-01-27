@@ -72,6 +72,21 @@ img {
     box-shadow: 0 0 40px rgb(45, 242, 209);
 
 }
+
+#answer{
+    font-size: 30px;
+    color: rgb(68, 255, 0);
+    font-size: 40px;
+    font-weight: bolder;
+    /* font-size: x-small; */
+    font-weight: bolder;
+}
+
+.pic {
+    display: none;
+    /* display: flex; */
+}
+
 .btn {
     height: 48px;
     width: 126px;
