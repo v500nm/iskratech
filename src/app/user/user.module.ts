@@ -28,6 +28,7 @@ import {PanelModule} from 'primeng/panel';
 import {TableModule} from 'primeng/table';
 import { FinalComponent } from './pages/final/final.component';
 import { StartComponent } from './pages/start/start.component';
+import { LoseComponent } from './pages/lose/lose.component';
 
 
 
@@ -50,7 +51,8 @@ import { StartComponent } from './pages/start/start.component';
     TopicsComponent,
     LeaderboardComponent,
     FinalComponent,
-    StartComponent
+    StartComponent,
+    LoseComponent
   ],
   imports: [
     CommonModule, 
