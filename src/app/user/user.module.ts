@@ -26,6 +26,8 @@ import { TopicsComponent } from './components/topics/topics.component';
 import { LeaderboardComponent } from './pages/leaderboard/leaderboard.component';
 import {PanelModule} from 'primeng/panel';
 import {TableModule} from 'primeng/table';
+import { FinalComponent } from './pages/final/final.component';
+import { StartComponent } from './pages/start/start.component';
 
 
 
@@ -46,7 +48,9 @@ import {TableModule} from 'primeng/table';
     AboutcompComponent,
     StreamComponent,
     TopicsComponent,
-    LeaderboardComponent
+    LeaderboardComponent,
+    FinalComponent,
+    StartComponent
   ],
   imports: [
     CommonModule, 

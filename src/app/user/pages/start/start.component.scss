@@ -1,0 +1,127 @@
+
+section{
+    margin: 4rem;
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        .title{
+            color: white;
+            font-size: 26px;
+        }
+    }
+
+}
+.box {
+    width: 100%;
+    /* border: 2px solid red; */
+    border-radius: 9px;
+    text-align: center;
+    /* margin-left: 100px; */
+    /* background-color: rgb(236, 10, 157);  */
+
+}
+
+.abc {
+    padding: 2rem;
+    border-radius: 9px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+}
+
+.num {
+
+    height: 108px;
+    width: 721px;
+    margin-top: 40px;
+    margin-left: -106px;
+    margin-bottom: 50px;
+    border-radius: 9px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+}
+
+
+img {
+    margin-top: 35px;
+}
+
+/* .techkriti{
+    height:
+} */
+.search {
+    height: 6rem;
+    width: 30rem;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: black;
+    color: rgb(52, 180, 50);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    box-shadow: 0 0 40px rgb(45, 242, 209);
+
+}
+
+#answer{
+    font-size: 30px;
+    color: rgb(68, 255, 0);
+    font-size: 40px;
+    font-weight: bolder;
+    /* font-size: x-small; */
+    font-weight: bolder;
+}
+
+.pic {
+    display: none;
+    /* display: flex; */
+}
+
+.btn {
+    height: 48px;
+    width: 126px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 35px;
+    background-color: rgb(144, 255, 255);
+    border: none;
+    color: darkgreen;
+    /* transition: font-size 2s;
+    transition: width 2s; */
+    transition: 1s;
+}
+
+.btn:hover {
+    height: 48px;
+    width: 100px;
+    /* font-size: 20px;
+    font-weight: bolder; */
+    cursor: pointer;
+    transition: 1s;
+}
+
+.hint {
+    text-align: center;
+    background-color: rgb(203, 240, 255);
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 2rem;
+    color: black;
+    opacity: 0.8;
+}
+
+
+#techimg {
+    height: 117px;
+    margin-top: -61px;
+    margin-left: 538px;
+    width: 352px;
+    border-radius: 70px 0px 70px 0px;
+    background-color: black;
+}
