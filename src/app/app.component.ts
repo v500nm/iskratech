@@ -10,11 +10,11 @@ export class AppComponent implements OnInit {
   isLoading = false;
   main =true;
   ngOnInit(): void {
-    this.isLoading = true;
-    this.main = false;
+    this.isLoading = false;
+    this.main = true;
     setTimeout(
       () => (this.isLoading = false,this.main = true),
-      1000,
+      2000,
     );
   }
 }
