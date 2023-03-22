@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
     this.main = false;
     setTimeout(
       () => (this.isLoading = false,this.main = true),
-      2000,
+      1000,
     );
   }
 }
