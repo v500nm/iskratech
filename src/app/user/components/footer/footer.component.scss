@@ -95,7 +95,10 @@ div.social {
 .copyright{
 display:flex;
   justify-content:space-between;
-  a{link-style:none;}
+  a{
+    color:white;
+    text-decoration:none;
+  }
 }
 .copyright p {
   font-size: 0.9em;
