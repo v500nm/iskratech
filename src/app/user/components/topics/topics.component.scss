@@ -135,7 +135,7 @@ h1,h3{
 }
 .slides::-webkit-scrollbar-thumb {
   background: rgb(7, 234, 255);
-  box-shadow: 0 0 40px rgb(45, 242, 209);
+  // box-shadow: 0 0 40px rgb(45, 242, 209);
   border-radius: 10px;
 }
 .slides::-webkit-scrollbar-track {
@@ -198,4 +198,13 @@ img {
 }
 .slider > a:focus {
   background: #000;
+}
+// -----------------------------
+.topicContainer .card .face.face2 .content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.topicContainer .card .face.face2 .content ul li {
+  margin-bottom: 10px;
 }

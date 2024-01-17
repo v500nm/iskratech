@@ -11,7 +11,7 @@ export class CountdownComponent implements OnInit, OnDestroy{
   }
 
   count() {
-    var countDownDate = new Date('Jan 28, 2024 08:00:').getTime();
+    var countDownDate = new Date('Jan 23, 2024 08:00:').getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function () {
