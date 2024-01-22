@@ -29,6 +29,7 @@ import {TableModule} from 'primeng/table';
 import { FinalComponent } from './pages/final/final.component';
 import { StartComponent } from './pages/start/start.component';
 import { LoseComponent } from './pages/lose/lose.component';
+import { BdayComponent } from './pages/bday/bday.component';
 
 
 
@@ -52,7 +53,7 @@ import { LoseComponent } from './pages/lose/lose.component';
     LeaderboardComponent,
     FinalComponent,
     StartComponent,
-    LoseComponent
+    LoseComponent,BdayComponent
   ],
   imports: [
     CommonModule, 

@@ -9,6 +9,7 @@ import { LeaderboardComponent } from './pages/leaderboard/leaderboard.component'
 import { StartComponent } from './pages/start/start.component';
 import { FinalComponent } from './pages/final/final.component';
 import { LoseComponent } from './pages/lose/lose.component';
+import { BdayComponent } from './pages/bday/bday.component';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
@@ -19,7 +20,8 @@ const routes: Routes = [
   {path:'stream', component:StreamComponent},
   {path:'start', component:StartComponent},
   {path:'final',component:FinalComponent},
-  {path:'lose',component:LoseComponent}
+  {path:'lose',component:LoseComponent},
+  {path:'bday',component:BdayComponent}
 ];
 
 @NgModule({
